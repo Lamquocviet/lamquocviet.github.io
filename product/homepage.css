@@ -1,0 +1,47 @@
+header{
+   position: relative;
+}
+h1{
+    padding-top: 15%;
+}
+.fit-hcmue{
+    
+    top: 70px;
+    left: 10px;
+    font-variant: small-caps;  
+}
+
+.poly-cart{
+    margin-top: 5px;
+
+}
+.poly-cart ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+}
+
+.poly-cart input{
+    margin-left: 15px;
+    width: 230px;
+}
+
+.card-product{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.product-title{
+    margin-bottom: 0.25rem;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.new-price{
+    color: red;
+    font-size: 20px;
+    
+   
+}
