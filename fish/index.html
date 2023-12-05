@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="audio"> 
+        <audio src="nal-mv-audio-lyric-official.mp3" type="audio/mp3" controls></audio>
+    </div>
+    <div class="content">
+        <div class="shark">
+            <img src="imgaes/shark.gif" width="auto" height="auto" >
+        </div>
+
+        <div class="diver1">
+            <img src="imgaes/diver1.gif" width="auto" height="auto" >
+        </div>
+        <div class="diver2">
+            <img src="imgaes/diver2.gif" width="auto" height="auto" >
+        </div>
+
+        <div class="diver3">
+            <img src="imgaes/diver3.gif" width="auto" height="auto" >
+        </div>
+
+        <div class="fish">
+            <img src="imgaes/goldFishSchool.gif" width="auto" height="auto" >
+        </div>
+
+        <div class="faint">
+            <img src="imgaes/faintSchool.gif" width="auto" height="auto" >
+        </div>
+
+
+        
+        
+        <div class="turtle">
+            <img src="imgaes/turtle.gif" width="auto" height="auto" >
+        </div>
+        <button  type="button" class="btn btn-info button-click" onclick="changeBackground()">Change Background</button>
+
+        <script>
+            // Array of background images
+            const backgroundImages = [
+              'url(' + 'imgaes/chia-se-73-hinh-nen-nuoc-dep-tinh-khiet-vo-cung-chan-thuc_35.jpg' + ')',
+              'url(' + 'imgaes/pngtree-beautiful-illustration-of-seabed-water-pattern-blue-image_2140154.jpg' + ')',
+              'url(' + 'imgaes/images.jpg' + ')',
+              
+              // Add more image URLs as needed
+            ];
+        
+            let currentImageIndex = 0;
+        
+            function changeBackground() {
+              // Change the background image
+              document.body.style.backgroundImage = backgroundImages[currentImageIndex];
+        
+              // Increment the index for the next click
+              currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
+            }
+          </script>
+        
+    </div>
+
+</body>
+</html>

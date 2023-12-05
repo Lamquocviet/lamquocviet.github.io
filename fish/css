@@ -1,0 +1,103 @@
+.content {
+    position: relative;
+}
+
+.shark{
+    left: 0px; top: 130px;
+    position: absolute;
+    animation-name: shark;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-play-state: running;
+}
+@keyframes shark{
+    0% {left: 100px;top: 400px;}
+    20% {left: 300px;top: 400px;}
+    40% {left: 500px;top: 300px;}
+    50% {left: 600px;top: 100px;}
+    60% {left: 600px;top: 100px;}
+    80% {left: 500px;top: 200px;}
+    
+    100% {left: 100px;top: 400px; transform:scaleX(-1);}
+
+}
+
+.driver1{
+    left: 0px; top: 400px;
+    position: absolute;
+    animation-name: driver1;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-play-state: running;
+}
+
+@keyframes drive1{
+    0% {left: 100px;top: 400px;}
+    20% {left: 300px;top: 400px;}
+    40% {left: 500px;top: 300px;}
+    50% {left: 600px;top: 100px;}
+    60% {left: 600px;top: 100px;}
+    80% {left: 500px;top: 200px;}
+    
+    100% {left: 100px;top: 400px; transform:scaleX(-1);}
+
+}
+
+.driver2{
+    left: 300px; top: 400px;
+    position: absolute;
+    animation-name: driver2;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-play-state: running;
+}
+
+@keyframes drive2{
+    0% {left: 100px;top: 400px;}
+    20% {left: 300px;top: 400px;}
+    40% {left: 500px;top: 300px;}
+    50% {left: 600px;top: 100px;}
+    60% {left: 600px;top: 100px;}
+    80% {left: 500px;top: 200px;}
+    
+    100% {left: 100px;top: 400px; transform:scaleX(-1);}
+
+}
+.driver3{
+    left: 900px; top: 180px;
+    position: absolute;
+    animation-name: driver3;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-play-state: running;
+}
+.ca{
+    left: 290px; top: 200px;
+    position: absolute;
+    animation-name: shark;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-play-state: running;
+}
+.nuoc{
+    left: 430px; top: 200px;
+    position: absolute;
+    animation-name: shark;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-play-state: running;
+}
+.rua{
+    left: 650px; top: 200px;
+    position: absolute;
+    animation-name: shark;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+    animation-play-state: running;
+}
+.audio{
+    float: right;
+}
+
+
+
